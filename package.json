@@ -1,15 +1,15 @@
 {
-  "name": "bitcoin",
-  "description": "Communicate with bitcoind via JSON-RPC",
+  "name": "namecoin-rpc",
+  "description": "Communicate with namecoind via JSON-RPC",
   "version": "2.1.2",
   "main": "lib/index.js",
   "keywords": [
-    "bitcoin",
+    "namecoin",
     "rpc"
   ],
-  "author": "Bill Casarin <bill@casarin.ca> (jb55.com)",
+  "author": "Srinivasan Sriram <ssriram@gmail.com>",
   "contributors": [
-    "Sean Lavine <sean@eternalrise.com>"
+      { "forked-from": "git://github.com/freewil/node-bitcoin" }
   ],
   "dependencies": {},
   "devDependencies": {
@@ -19,7 +19,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/freewil/node-bitcoin.git"
+    "url": "git://github.com/ssr1ram/namecoin-rpc.git"
   },
   "engines": {
     "node": ">= 0.8.0"
