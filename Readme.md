@@ -9,7 +9,7 @@ object, or you may call the API directly using the `cmd` method.
 
 ## Install
 
-Coming soon... `npm install namecoin-rpc`
+`npm install namecoin-rpc`
 
 ## Examples
 
